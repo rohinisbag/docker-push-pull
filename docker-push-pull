@@ -1,0 +1,11 @@
+docker push docker pull 
+docker build -t rohini-img .
+docker -d --name con1 -p 80:80 rohini-img
+docker image
+go to docker hub docker login create repo
+docker tag rohini-img rohinisbag/new:v1 (repo name )
+docker push rohinisbag/new:v1
+
+docker 2
+docker pull rohinisbag/new:v1
+docker images
